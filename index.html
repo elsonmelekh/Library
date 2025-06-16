@@ -3,25 +3,30 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>LIBRARY</title>
     <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <div class="container">
         <h1>MY LIBRARY</h1>
         <div class="formsection">
-            <form action="">
-                <label for="email">Email:</label>
-  <input type="email" id="email" placeholder="Enter email" name="email">
-  <label for="pwd">Password:</label>
-  <input type="password" id="pwd" placeholder="Enter password" name="pswd">
-  <label>
-    <input type="checkbox" name="remember"> Remember me
-  </label>
-  <button type="submit">Submit</button>
+            <form class="form-container form-js" action="">
+                <label for="author">AUTHOR:</label>
+                <input class="author-js" type="text" id="author"  name="author">
+                <label for="title">TITLE:</label>
+                <input class="title-js" type="text" id="title" name="title">
+                <label for="pages">PAGES:</label>
+                <input class="pages-js" type="number" id="pages"  name="pages">
+                <button class="submit-js" type="submit">ADD BOOK</button>
             </form>
+        </div>
+
+        <div class="cardSection">
         </div>
     </div>
     
+
+
+    <script src="main.js"></script>
 </body>
 </html>
